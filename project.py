@@ -172,6 +172,8 @@ def generate_names(gender, initial_letter):
 
     return names_list
 
+
+
 def get_name_meaning(name):
     return name_meanings.get(name, "Мааниси жок")
 
