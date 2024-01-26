@@ -141,7 +141,7 @@ class BabyNameGeneratorApp:
         if not like_name:
             self.show_names()
         else:
-            tk.messagebox.showinfo("Congratulations", f"Congratulations! You've chosen the name '{selected_name}' for your newborn.")
+            tk.messagebox.showinfo("Congratulations", f"Куттуктайбыз ! Наристениздин аты'{selected_name}' ")
 
     def get_valid_gender(self):
         while True:
