@@ -178,6 +178,7 @@ def get_name_meaning(name):
     return name_meanings.get(name, "Мааниси жок")
 
 def main():
+    
     root = tk.Tk()
     app = BabyNameGeneratorApp(root)
     root.mainloop()
